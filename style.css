@@ -236,7 +236,7 @@ footer.second p, .second a {
   line-height: 155%;
 }
 
-@media (min-width: 412px) and (max-width: 640px) {
+@media (min-width: 360px) {
   p {
     font-size: 130%;
   }
