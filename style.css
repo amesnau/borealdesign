@@ -236,7 +236,7 @@ footer.second p, .second a {
   line-height: 155%;
 }
 
-@media (min-width: 360px) {
+@media (max-width: 680px) {
   p {
     font-size: 130%;
   }
@@ -246,9 +246,11 @@ footer.second p, .second a {
   header {
     height: 100px;
     position: relative;
+    float: left;
   }
   header #logo {
     margin: 15px 0 20px -25px;
+    float: left;
   }
 
   #menu-icon {
@@ -284,6 +286,7 @@ footer.second p, .second a {
     height: 80px;
     width: 80px;
     margin-top: 3%;
+    float: left;
   }
 
   .icon-wrap i {
